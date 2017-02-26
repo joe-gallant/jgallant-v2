@@ -1,6 +1,6 @@
 <nav id="mob_menu">
 	<ul>
-		<li class="mainNav_item"><a href="http://localhost:8888/" class="mainNav_link">home</a></li>
+		<li class="mainNav_item"><a href="http://jgallant.co.uk/" class="mainNav_link">home</a></li>
 
 		<li class="mainNav_item"><a href="blog" class="mainNav_link">blog</a></li>
 		<li class="mainNav_item"><a href="#contact" class="mainNav_link mobScrollLink">contact</a></li>

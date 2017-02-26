@@ -63,9 +63,8 @@
 
 	<?php include('partials/mob-menu.php'); ?>
 	
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="js/app.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async src="js/all.js"></script>
 
 </body>
 </html>

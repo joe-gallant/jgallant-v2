@@ -1,9 +1,5 @@
 $(document).ready(function(){
 
-if($(window).height() < 450) {
-    $('.introductionText').hide();
-}
-
 var $document = $(document),
     $element = $('header'),
     className = 'fixed';

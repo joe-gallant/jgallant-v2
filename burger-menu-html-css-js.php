@@ -9,6 +9,7 @@ $desc = 'Burger menus are a great way to indicate a trigger for a sites navigati
 $image = 'article-assets/bg/burger.jpg';
 $imageHeight = '1280';
 $imageWidth = '853';
+$imagebg = 'article-assets/bg/burger-menu-html-css-js.jpg';
 
 include('article-partials/article-head.php');
 include('partials/header.php'); ?>
@@ -34,10 +35,8 @@ include('partials/header.php'); ?>
 
 	<?php include('partials/mob-menu.php'); ?>
 	
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="js/prism.js"></script>
-<script src="js/app.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script async src="js/all.js"></script>
 
 </body>
 </html>

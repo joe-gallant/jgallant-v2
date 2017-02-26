@@ -1,4 +1,4 @@
-<section id="hero" class="article-header hero" style="background-image:url(<?php echo $image; ?>)">
+<section id="hero" class="article-header hero" style="background-image:url(<?php echo $imagebg; ?>)">
 
 	<div class="overlay"></div>
 	<div class="text">
