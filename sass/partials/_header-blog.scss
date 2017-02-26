@@ -1,0 +1,31 @@
+#hero.article-header {
+	height:400px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	.overlay {
+		opacity: 0.5;
+	}
+
+	.text {
+		top:60%;
+	}
+
+	h1 {
+		font-weight:bolder;
+		margin-bottom:20px;
+	}
+
+	p.date {
+		margin-top:0;
+	}
+}
+
+@media screen and (max-width:430px) {
+
+	#hero.article-header {
+		height:300px;
+	}
+
+}
