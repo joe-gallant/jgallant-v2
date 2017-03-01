@@ -1,4 +1,4 @@
-<p>Burger menus are a great way to indicate a trigger for a sites navigation. In this article I will share how I create my menu icons using HTML, CSS and JS. Below is an example of what can be achieved with just a few lines of code.</p>
+<p>Burger menus are a great way to trigger a sites navigation. In this article I will share how I create my burger menus using HTML, CSS and JS. Below is an example of what can be achieved with just a few lines of code.</p>
 
 <div class="burger_demo">
 
