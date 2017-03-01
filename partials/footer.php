@@ -13,19 +13,30 @@
 	<div class="container-fluid">
 		<div class="row">
 
-			<div class="col-md-6 col-md-offset-3">
-				<img src="images/profile-pic.png" alt="Joe Gallant Profile Pic">
-				<h4>Joe Gallant</h4>
-				<p>I'm a <?php echo $age; ?> year old self-taught web developer from Essex. I currently work full-time for a digital agency completing all of my freelance projects in the evenings and weekends. Feel free to get in touch if you want to discuss a project!</p>
-				<a href="mailto:joe@jgallant.co.uk">joe@jgallant.co.uk</a>
-				<span class="tel">07984567668</span>
+			<div class="col-md-6 col-sm-6">
+				<form action="mailer.php" id="contact-form">
+					<input name="name" type="text" placeholder="name*:" required>
+					<input name="email" type="text" placeholder="email*:" required>
+					<input name="telephone" type="text" placeholder="telephone:">
+					<textarea name="message" id="" placeholder="message*:" required></textarea>
+					<input type="submit" value="submit" class="submit">
+					<div id="form-messages"></div>
+				</form>
+			</div>
 
+			<div class="col-md-6 col-sm-6">
+				<img src="images/profile-pic.png" alt="Joe Gallant Profile Pic">
+				<br>
+				<h4>Joe Gallant</h4>
 				<ul class="social-media">
 					<li class="twitter"><a href="https://twitter.com/JoeGallant95" target="_blank"><img src="images/twitter.svg" alt="Twitter Icon" /></a></li>
 					<li class="facebook"><a href="https://www.facebook.com/joe.gallant.568" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon" /></a></li>
 					<li class="linkedin"><a href="https://www.linkedin.com/in/jgallant/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon" /></a></li>
 					<li class="github"><a href="https://github.com/joe-gallant" target="_blank"><img src="images/github-logo.svg" alt="Github Icon" /></a></li>
 				</ul>
+				<p>I'm a <?php echo $age; ?> year old self-taught web developer from Essex. I currently work full-time for a digital agency completing all of my freelance projects in the evenings and weekends. Feel free to get in touch if you want to discuss a project!</p>
+				<a href="mailto:joe@jgallant.co.uk">joe@jgallant.co.uk</a>
+				<span class="tel">07984567668</span>
 			</div>
 
 		</div>

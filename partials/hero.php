@@ -2,7 +2,7 @@
 	<div class="overlay"></div>
 	<div class="text">
 		<h1 class="title">I'm a freelance <strong>web developer</strong> based in Essex</h1>
-		<p class="intro introductionText">Hi, my name is Joe. I am a web designer / developer based in Essex. I specialise in building bespoke sites totally custom to the clients needs.</p>
+		<p class="intro introductionText">Hi, my name is Joe. I am a web designer / developer based in Essex. I specialise in building bespoke websites, totally custom to the clients needs.</p>
 		<a href="#contact" class="scrollLink">get in touch</a>
 	</div>
 
