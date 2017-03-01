@@ -22,8 +22,8 @@
 	</head>
 <body>
 
-	<?php include('partials/header.php'); ?>
-
+<!-- 	<?php include('partials/header.php'); ?>
+ -->
 	<div class="site_wrapper">
 		<?php include('partials/hero.php'); ?>
 		<?php include('partials/services.php'); ?>
