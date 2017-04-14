@@ -36,6 +36,22 @@
 		<div class="container-fluid">
 			
 			<article>
+				<a class="containerlink" href="simple-gulp-sass-setup">
+					<div class="row">
+						<div class="col-md-7">
+							<h2 class="title">My simple Gulp and SASS setup</h2>
+							<span class="date">14th Apr 2017</span>
+							<p class="excerpt">Gulp is a great tool for front end developers, this article is showing my simple setup for compiling SASS using Gulp.</p>
+						</div>
+						
+						<div class="col-md-5">
+							<img src="article-assets/sm/simple-gulp-sass-sm.jpg" alt="Simple Gulp and Sass Setup">
+						</div>
+					</div>
+				</a>
+			</article>
+
+			<article>
 				<a class="containerlink" href="burger-menu-html-css-js">
 					<div class="row">
 						<div class="col-md-7">
@@ -50,7 +66,6 @@
 					</div>
 				</a>
 			</article>
-
 		</div>
 
 	</section>

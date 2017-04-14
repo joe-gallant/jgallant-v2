@@ -2,17 +2,17 @@
 <html lang="en">
 
 <?php
-$title = 'Burger Menu - HTML, CSS & JS';
-$date = '26th Febuary 2017';
-$dateAlt = '2017-02-26';
-$desc = 'Burger menus are a great way to indicate a trigger for a sites navigation. In this article I will share how I create my menu icons using HTML, CSS and JS. Below is an example of what can be achieved with just a few lines of code.';
-$image = 'article-assets/bg/burger.jpg';
+$title = 'My simple Gulp and SASS setup';
+$date = '14th April 2017';
+$dateAlt = '2017-04-14';
+$desc = 'Gulp is a great tool for front end developers, this article is showing my simple setup for compiling SASS using Gulp.';
+$image = 'article-assets/bg/simple-gulp-sass-setup-social.jpg';
 $imageHeight = '1280';
 $imageWidth = '853';
-$imagebg = 'article-assets/bg/burger-menu-html-css-js.jpg';
 
+$imagebg = 'article-assets/bg/simple-gulp-sass.jpg';
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$hashtags = "burgermenu,front-end,webdesign";
+$hashtags = "gulp,sass,front-end,webdesign";
 
 include('article-partials/article-head.php');
 include('partials/header.php'); ?>
@@ -25,12 +25,11 @@ include('partials/header.php'); ?>
 
 		<div class="container-fluid article-wrapper" itemprop="articleBody">
 
-			<?php include('article-content/burger-menu-html-css-js.php'); ?>
-			
+			<?php include('article-content/gulp-content.php'); ?>
+		
 			<?php include('article-partials/share-buttons.php'); ?>
 
 		</div>
-
 	</article>
 
 	<?php include('partials/project.php'); ?>
